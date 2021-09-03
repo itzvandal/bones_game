@@ -1,0 +1,34 @@
+  print("Dice in python lol")
+	print("The nobody version knows which")
+
+	import random
+
+	input("Press ENTER to start the game")
+
+	gamer1 = random.randint(1,6)
+	print("Your number: ")
+	print(gamer1)
+
+	input("Press ENTER to continue the game")
+
+	gamer2 = random.randint(1,6)
+	print("Number of PCs: ")
+	print(gamer2)
+
+	if gamer1 > gamer2:
+		print("You won lol")
+	elif gamer2 == gamer2:
+		print("Loser, draw")
+	else:
+		print("You lost, dear))0)")
+
+	game = input("Would you like to fuck up the game? Press y to continue and n to get the fuck out of here")
+
+	if game == "n":
+		print("Well, you go")
+		break
+	elif game == "y":
+		print("Happy loss)0))")
+	else:
+		print("Man, are you ok?")
+		input()
